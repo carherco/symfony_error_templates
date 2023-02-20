@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Error 500 !!!!!!!! </h1>
+
+    <p>
+        Página personalizada de error 500.
+    </p>
+    <p>
+        Código de error: {{ status_code }}
+    </p>
+    <p>
+        Mensaje de error: {{ status_text }}
+    </p>
+{% endblock %}
